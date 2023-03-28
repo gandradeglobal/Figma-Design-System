@@ -1,3 +1,112 @@
+export type LIBColorValue =
+  'color-neutral-white' |
+  'color-neutral-lighter' |
+  'color-neutral-light' |
+  'color-neutral-base' |
+  'color-neutral-dark' |
+  'color-neutral-text' |
+  'color-status-success-base' |
+  'color-status-success-light' |
+  'color-status-success-dark' |
+  'color-status-error-base' |
+  'color-status-error-light' |
+  'color-status-error-dark' |
+  'color-status-warning-base' |
+  'color-status-warning-light' |
+  'color-status-warning-dark' |
+  'color-primary-base' |
+  'color-primary-dark' |
+  'color-primary-light' |
+  'color-secondary-base' |
+  'color-secondary-light' |
+  'color-secondary-dark' |
+  'color-10' |
+  'color-20' |
+  'color-30' |
+  'color-40' |
+  'color-50' |
+  'color-60' |
+  'color-70' |
+  'color-80' |
+  'color-90' |
+  'color-100' |
+  'color-120' |
+  'color-140' |
+  'color-160' |
+  'color-180' |
+  'color-05';
+
+export type LIBTypeValue =
+  'type-heading-1' |
+  'type-heading-1-size' |
+  'type-heading-1-weight' |
+  'type-heading-1-b' |
+  'type-heading-1-b-size' |
+  'type-heading-1-b-weight' |
+  'type-heading-2' |
+  'type-heading-2-size' |
+  'type-heading-2-weight' |
+  'type-heading-2-b' |
+  'type-heading-2-b-size' |
+  'type-heading-2-b-weight' |
+  'type-heading-3' |
+  'type-heading-3-size' |
+  'type-heading-3-weight' |
+  'type-heading-3-b' |
+  'type-heading-3-b-size' |
+  'type-heading-3-b-weight' |
+  'type-heading-4' |
+  'type-heading-4-size' |
+  'type-heading-4-weight' |
+  'type-heading-5' |
+  'type-heading-5-size' |
+  'type-heading-5-weight' |
+  'type-heading-5-b' |
+  'type-heading-5-b-size' |
+  'type-heading-5-b-weight' |
+  'type-heading-6' |
+  'type-heading-6-size' |
+  'type-heading-6-weight' |
+  'type-link' |
+  'type-link-size' |
+  'type-link-weight' |
+  'type-label-bold' |
+  'type-label-bold-size' |
+  'type-label-bold-weight' |
+  'type-label' |
+  'type-label-size' |
+  'type-label-weight' |
+  'type-button' |
+  'type-button-size' |
+  'type-button-weight' |
+  'type-caption' |
+  'type-caption-size' |
+  'type-caption-weight' |
+  'type-body-1-semi-bold' |
+  'type-body-1-semi-bold-size' |
+  'type-body-1-semi-bold-weight' |
+  'type-body-1-regular' |
+  'type-body-1-regular-size' |
+  'type-body-1-regular-weight' |
+  'type-body-1-regular-underlined' |
+  'type-body-1-regular-underlined-size' |
+  'type-body-1-regular-underlined-weight' |
+  'type-body-2-regular' |
+  'type-body-2-regular-size' |
+  'type-body-2-regular-weight' |
+  'type-body-2-semi-bold' |
+  'type-body-2-semi-bold-size' |
+  'type-body-2-semi-bold-weight' |
+  'type-body-2-regular-underlined' |
+  'type-body-2-regular-underlined-size' |
+  'type-body-2-regular-underlined-weight' |
+  'type-subtitle-subtitle-2' |
+  'type-subtitle-subtitle-2-size' |
+  'type-subtitle-subtitle-2-weight' |
+  'type-subtitle-subtitle-1' |
+  'type-subtitle-subtitle-1-size' |
+  'type-subtitle-subtitle-1-weight';
+
 export type LIBSpacingValue =
   'spacing-col-0' |
   'spacing-col-0-3' |
@@ -67,4 +176,6 @@ export type LIBSpacingValue =
   'spacing-colvw-12';
 
 export type LIBValue =
+  LIBColorValue |
+  LIBTypeValue |
   LIBSpacingValue;
