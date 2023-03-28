@@ -5,6 +5,2697 @@
       "dsys.level": "sheet",
       "dsys.prefix": "LIB",
       "dsys.fullName": "Global Component Library"
+    },
+    "color": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ColorSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the color tokens",
+      "colour": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Colour",
+          "dsys.nodeId": "2622:55326"
+        },
+        "$description": "Colour color tokens",
+        "Neutral/White": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Neutral/White",
+            "dsys.index": 0,
+            "dsys.styleId": "S:d8c4700df03331e8e2672ad571140dfa0bb9b319,"
+          },
+          "$value": {
+            "hex": "#ffffff",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Neutral/Lighter": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Neutral/Lighter",
+            "dsys.index": 1,
+            "dsys.styleId": "S:514f7fe9bbc70b29b96ed245e725c339d0fd52be,"
+          },
+          "$value": {
+            "hex": "#f4f4f4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Neutral/Light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Neutral/Light",
+            "dsys.index": 2,
+            "dsys.styleId": "S:9bc3ded744c239408431d9cb3e65272c0f409ba8,"
+          },
+          "$value": {
+            "hex": "#dedede",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Neutral/Base": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Neutral/Base",
+            "dsys.index": 3,
+            "dsys.styleId": "S:b90e3efe317166d15a77df60e215f53cc12297a1,"
+          },
+          "$value": {
+            "hex": "#bdbdbd",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Neutral/Dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Neutral/Dark",
+            "dsys.index": 4,
+            "dsys.styleId": "S:954216f8d283d99f0f210ed13a41c201d4fa4961,"
+          },
+          "$value": {
+            "hex": "#747474",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Neutral/Text": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Neutral/Text",
+            "dsys.index": 5,
+            "dsys.styleId": "S:be61f7feea69e5063f91ca80baa42133f40d513d,"
+          },
+          "$value": {
+            "hex": "#1d1d1d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Success/Base": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Success/Base",
+            "dsys.index": 6,
+            "dsys.styleId": "S:b14d9fbd96d84d79c4d7fdd60b1c611f206c611b,"
+          },
+          "$value": {
+            "hex": "#1e7935",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Success/Light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Success/Light",
+            "dsys.index": 7,
+            "dsys.styleId": "S:f51998e62dbdeeb983c09e9b585261988a2ac6f7,"
+          },
+          "$value": {
+            "hex": "#78af86",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Success/Dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Success/Dark",
+            "dsys.index": 8,
+            "dsys.styleId": "S:efc601ca8317b1c7800cd7c60821db0b759fc156,"
+          },
+          "$value": {
+            "hex": "#124920",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Error/Base": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Error/Base",
+            "dsys.index": 9,
+            "dsys.styleId": "S:393a4541977f8a1fbb681ba5f0062312ccb7d09d,"
+          },
+          "$value": {
+            "hex": "#cd3333",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Error/Light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Error/Light",
+            "dsys.index": 10,
+            "dsys.styleId": "S:127eb88e0941bea5c5e8703dbcc3ecf7a65856bf,"
+          },
+          "$value": {
+            "hex": "#e18585",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Error/Dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Error/Dark",
+            "dsys.index": 11,
+            "dsys.styleId": "S:2a7bf778403ebe2f6c137099c1a89695fdce92ad,"
+          },
+          "$value": {
+            "hex": "#7b1f1f",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Warning/Base": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Warning/Base",
+            "dsys.index": 12,
+            "dsys.styleId": "S:bf1b4109dd391ac2591a82f5e0f988997567f0c2,"
+          },
+          "$value": {
+            "hex": "#f37012",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Warning/Light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Warning/Light",
+            "dsys.index": 13,
+            "dsys.styleId": "S:2c453a1f3e398d00175ec4ffa736f68296333569,"
+          },
+          "$value": {
+            "hex": "#f8a971",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Status/Warning/Dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Status/Warning/Dark",
+            "dsys.index": 14,
+            "dsys.styleId": "S:0b260dc9c639de9cda729c3a1a0552686dd6d23b,"
+          },
+          "$value": {
+            "hex": "#92430b",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary/Base": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary/Base",
+            "dsys.index": 15,
+            "dsys.styleId": "S:8557dc64c91368678d5ec6730090871a676a665c,"
+          },
+          "$value": {
+            "hex": "#046ac4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary/Dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary/Dark",
+            "dsys.index": 16,
+            "dsys.styleId": "S:c2ea80e031eb60fd83826a5f2393ddd03aa76851,"
+          },
+          "$value": {
+            "hex": "#024076",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Primary/Light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Primary/Light",
+            "dsys.index": 17,
+            "dsys.styleId": "S:f6fa6da38d883ee3e7be1702bc4625e6445c08f8,"
+          },
+          "$value": {
+            "hex": "#68a6dc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary/Base": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary/Base",
+            "dsys.index": 18,
+            "dsys.styleId": "S:62b7453e0e16585245108b9c6bff632526fe9c18,"
+          },
+          "$value": {
+            "hex": "#1087b5",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary/Light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary/Light",
+            "dsys.index": 19,
+            "dsys.styleId": "S:f50dfe92cef786129086fe4ed0f062081ea73706,"
+          },
+          "$value": {
+            "hex": "#87c3da",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "Secondary/Dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Secondary/Dark",
+            "dsys.index": 20,
+            "dsys.styleId": "S:2c8320f388470590cb8f1513aaf6c2eaf77f888e,"
+          },
+          "$value": {
+            "hex": "#0a516d",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-gray": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 8,
+            "dsys.styleId": "S:32df880e68360930be6b3ff56524ca710c8cd59e,"
+          },
+          "$value": {
+            "hex": "#f4f4f4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 7,
+            "dsys.styleId": "S:76d395a1bc34f509b07f08c73420439bd0c84768,"
+          },
+          "$value": {
+            "hex": "#e9e9e9",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 6,
+            "dsys.styleId": "S:d84a30a6a3482716a93b31ed778a2c971b85a607,"
+          },
+          "$value": {
+            "hex": "#dedede",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 5,
+            "dsys.styleId": "S:25b2eafce9936d5a7f56dcbad3755c5f7c34ea83,"
+          },
+          "$value": {
+            "hex": "#d3d3d3",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 4,
+            "dsys.styleId": "S:7d24c3bf6d43d873ff936d1ae43079b31585ea4d,"
+          },
+          "$value": {
+            "hex": "#c8c8c8",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 3,
+            "dsys.styleId": "S:901d95482939315ca8dab43de7365561f069113f,"
+          },
+          "$value": {
+            "hex": "#bdbdbd",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 2,
+            "dsys.styleId": "S:a18ca37e7edee72c7db980820ebfbdbce05643c0,"
+          },
+          "$value": {
+            "hex": "#b3b3b3",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 1,
+            "dsys.styleId": "S:02c1a073f8001a1e9dfcbb628e286f4b72e2fef7,"
+          },
+          "$value": {
+            "hex": "#a7a7a7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 0,
+            "dsys.styleId": "S:aba6227004ace59a24c364eeef4d4cf72a7412ae,"
+          },
+          "$value": {
+            "hex": "#9c9c9c",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 10,
+            "dsys.styleId": "S:77ff45b84b2050a9e57c315a2174b7fc8ced886d,"
+          },
+          "$value": {
+            "hex": "#919191",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:8cb75481c65c4999a0973ac9c0b3813a02ff3c31,"
+          },
+          "$value": {
+            "hex": "#747474",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:9117e4189cd0eb6b339e778beb6b0b2c17877b7a,"
+          },
+          "$value": {
+            "hex": "#575757",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:99808d58061143ce65731933e48c47da85987028,"
+          },
+          "$value": {
+            "hex": "#3a3a3a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "180": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "180",
+            "dsys.index": 14,
+            "dsys.styleId": "S:b3e5d1785d68cab1ee9db7d6e78fc0c03d8cd223,"
+          },
+          "$value": {
+            "hex": "#1d1d1d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Gray",
+          "dsys.nodeId": "2622:63407"
+        },
+        "$description": "Palette/Gray color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 9,
+            "dsys.styleId": "S:a2a129ad2b14653db99a781c64d958c906344da2,"
+          },
+          "$value": {
+            "hex": "#f9f9f9",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-blue": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:143f4cee2f7c365bbd29d9976776eaa456fba585,"
+          },
+          "$value": {
+            "hex": "#e5f0f9",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:55d62a3ab5b871a85b0af7543f950a99aa859535,"
+          },
+          "$value": {
+            "hex": "#cde1f3",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:d1bcb392a36733f1e3980192b9247b59c16b2f9e,"
+          },
+          "$value": {
+            "hex": "#b3d2ed",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:1428e563c41cf60968f4b80d849926ff35c211f8,"
+          },
+          "$value": {
+            "hex": "#9bc3e7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:1f6fc95e1fadbe689310765bdd675ba637399a24,"
+          },
+          "$value": {
+            "hex": "#81b4e1",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:645f6d35f07e46bad6a0cdcbde79c7cae5980759,"
+          },
+          "$value": {
+            "hex": "#68a6dc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:e84db293682dc580762e23f08f2e2da4a619bfe9,"
+          },
+          "$value": {
+            "hex": "#5097d6",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:b1209bdbba5cc28799de67baffbcb617c34523e3,"
+          },
+          "$value": {
+            "hex": "#3688d0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:21ccf50e5f0ccd8ee833448ab868e6fc895799cd,"
+          },
+          "$value": {
+            "hex": "#1e79ca",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:40e1a79ac28d39f5c73fe59cee80b284aee33f71,"
+          },
+          "$value": {
+            "hex": "#046ac4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:427a514ebc9ab72e4038eb6f06b1d37db6c5c868,"
+          },
+          "$value": {
+            "hex": "#03559d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:867cb16a739de94f625b3caecf39b0ce8ebe29ab,"
+          },
+          "$value": {
+            "hex": "#024076",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:b306fdc7c9ea2e7182c956848e949e15a0f7c035,"
+          },
+          "$value": {
+            "hex": "#022a4e",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Blue",
+          "dsys.nodeId": "2622:63603"
+        },
+        "$description": "Palette/Blue color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:1347544176c62099897cd615910af9af730a63cb,"
+          },
+          "$value": {
+            "hex": "#e5f0f9",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-green": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:9e6b2f9ef7735650bf1101adc10c4d031219244c,"
+          },
+          "$value": {
+            "hex": "#e8f1ea",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:3571ceed9b28c5385aa31688c1c246aa1c2c8673,"
+          },
+          "$value": {
+            "hex": "#d2e4d7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:6160bc2c65d68a66d4283e35208e936df9bcf3ea,"
+          },
+          "$value": {
+            "hex": "#bbd6c2",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:5845b6c4a420940897a1472e0c90dfd29ddf75b4,"
+          },
+          "$value": {
+            "hex": "#a5c9ae",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:16a9b736b1725a97e4418c5a8ddd78483c1e9b83,"
+          },
+          "$value": {
+            "hex": "#8ebc9a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:7be509d875e5e89c91cbaead64302da29c6b3a16,"
+          },
+          "$value": {
+            "hex": "#78af86",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:06efd5258d5f74b8ba1e56c225a95ece2445d64a,"
+          },
+          "$value": {
+            "hex": "#62a272",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:f484ed74072c2de7afc46b6def5a590fced174f5,"
+          },
+          "$value": {
+            "hex": "#4b945d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:a0ebde89f0294ba7ba813202e33e525ba9c6d919,"
+          },
+          "$value": {
+            "hex": "#35874a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:971658d872306e98fe0edc57dd8e56f9a977d167,"
+          },
+          "$value": {
+            "hex": "#1e7935",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:a2f3f2e0577140d8bc85f78fb1c764e342ba6bd1,"
+          },
+          "$value": {
+            "hex": "#18612a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:dbd59d58108f3f02a0565f00b3b271dd2ffd56a7,"
+          },
+          "$value": {
+            "hex": "#124920",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:7e9b15fa1cba1411325ba3dd1a085dac5ce9e1df,"
+          },
+          "$value": {
+            "hex": "#124920",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Green",
+          "dsys.nodeId": "2622:64111"
+        },
+        "$description": "Palette/Green color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:386f409ccd255b0b28100c4d2b70c6d0e9d1aa5e,"
+          },
+          "$value": {
+            "hex": "#f4f8f5",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-red": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:f9b356e38012a2ad919bcc49857e00acc90f5a7e,"
+          },
+          "$value": {
+            "hex": "#faeaea",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:016a9fdbbbfc5937ff458813dfc6b7b6a17acdd8,"
+          },
+          "$value": {
+            "hex": "#f5d6d6",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:0ca5390b3e1acfed994c30f5e090b64fed722b09,"
+          },
+          "$value": {
+            "hex": "#f0c1c1",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:7214eeddbe8a18665c443d7a5b6eb30300a6fa7d,"
+          },
+          "$value": {
+            "hex": "#ebadad",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:116893a15cbc331152054fa1d82d4a7b3b7f89a4,"
+          },
+          "$value": {
+            "hex": "#e69999",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:9e2a3f45ab9a3f219827dbd6a1a03dbd05025916,"
+          },
+          "$value": {
+            "hex": "#e18585",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:67c06a0d28ca446f0f2c7b7b69419440b4c9aeba,"
+          },
+          "$value": {
+            "hex": "#dc7171",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:c3f1b3e3802dc0c53f0248981e19c8ab63710913,"
+          },
+          "$value": {
+            "hex": "#d75c5c",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:460b9e29d4b887ff1978784fd8157f1ecf43fd93,"
+          },
+          "$value": {
+            "hex": "#d24848",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:46ac135deca7938989d267bcd3850e86eadc59f3,"
+          },
+          "$value": {
+            "hex": "#cd3333",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:ddfffca20a136b3671549a5add5069fb9daca137,"
+          },
+          "$value": {
+            "hex": "#a42929",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:6bba319d28b0f6315c76b1c29cc60653b34895bc,"
+          },
+          "$value": {
+            "hex": "#7b1f1f",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:2d88023478c9296db8c6d5b3ac0bef10b490d085,"
+          },
+          "$value": {
+            "hex": "#521414",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Red",
+          "dsys.nodeId": "2622:64623"
+        },
+        "$description": "Palette/Red color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:0f833e7b85d2747cef19c7365c2285031b582311,"
+          },
+          "$value": {
+            "hex": "#fcf5f5",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-amber": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:7e8ea3c2aeae8c2f49c14d3c4786265eb8132099,"
+          },
+          "$value": {
+            "hex": "#fdf0e7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:a875cf124e6d4f43a21e46581a014a23dadb0346,"
+          },
+          "$value": {
+            "hex": "#fde2d0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:9e8c49f861121120d25021fa4db2bcc7011fcad8,"
+          },
+          "$value": {
+            "hex": "#fbd4b7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:8dd7e41427dd498319d45b18ff667d57c973a6de,"
+          },
+          "$value": {
+            "hex": "#fac6a0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:039a3c39e9e4875f1c39c956d9213f7c46d905ba,"
+          },
+          "$value": {
+            "hex": "#f9b788",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:9b8b426d86f5f46f00c551cf5398a470ec838f69,"
+          },
+          "$value": {
+            "hex": "#f8a971",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:46d8c38cb0549a23767222ced09b72d474ce1967,"
+          },
+          "$value": {
+            "hex": "#f79b5a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:67093de7e72a65dc29f6b9913d5cbdceaa579e2d,"
+          },
+          "$value": {
+            "hex": "#f58d41",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:69a629d20ffff49352176c02b187aaea53a24273,"
+          },
+          "$value": {
+            "hex": "#f57f2a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:55852780c7fc6f71e6171b79338b80e2fd9421d7,"
+          },
+          "$value": {
+            "hex": "#f37012",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:ec77b6c024a026a29b624d350ac3b687c8c9c1fe,"
+          },
+          "$value": {
+            "hex": "#c25a0e",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:2f2d2e0969304ed5774671d5afc6f1234972e0e3,"
+          },
+          "$value": {
+            "hex": "#92430b",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:eac11e6aafe0612faa167d230c75a2c7936cc2bd,"
+          },
+          "$value": {
+            "hex": "#612d07",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Amber",
+          "dsys.nodeId": "2622:65203"
+        },
+        "$description": "Palette/Amber color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:6e9ee54cd071d3153922114af582adaf06239573,"
+          },
+          "$value": {
+            "hex": "#fef8f3",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-violet": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:6256cf044778ab1ac746f03d9f7635699344d3eb,"
+          },
+          "$value": {
+            "hex": "#eaedf5",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:b7f128a5f84f2f176c0b8a5c0b2cbe6cddee7be5,"
+          },
+          "$value": {
+            "hex": "#d7dceb",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:e1a6517202c470f898fb9d394135775c7fe075de,"
+          },
+          "$value": {
+            "hex": "#c2cbe1",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:cc1ef0cf467bc77daafe0227421c316dbddb4f26,"
+          },
+          "$value": {
+            "hex": "#aebad8",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:1903c9d91b4acf17f2f10fd42324846746ee1da5,"
+          },
+          "$value": {
+            "hex": "#9aa8ce",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:ea1bc67c188711e841e5fa41d9e155f931b7d6cb,"
+          },
+          "$value": {
+            "hex": "#8697c4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:e6b0af3469dfef8885807df79febe361803615ab,"
+          },
+          "$value": {
+            "hex": "#7286bb",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:4083d1a6ad7ed5694af6c9498cec96ceb9f23943,"
+          },
+          "$value": {
+            "hex": "#5d75b1",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:f0c25799b6c39612a45b7c03f2749a96feac8cd1,"
+          },
+          "$value": {
+            "hex": "#4a64a7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:def1fdd55176a415fb9b2e6b88c4ce78fb7de9fd,"
+          },
+          "$value": {
+            "hex": "#35529d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:40fb12114ad24d04f05f8f442e112f33b30ea122,"
+          },
+          "$value": {
+            "hex": "#2a427e",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:d4b9feafef2e07fbe8952759655882b1c51c974f,"
+          },
+          "$value": {
+            "hex": "#20315e",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:e05915b7bbf9fc917835ff5678a82f7c68e1e6e3,"
+          },
+          "$value": {
+            "hex": "#15213f",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Violet",
+          "dsys.nodeId": "2622:65713"
+        },
+        "$description": "Palette/Violet color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:f12cabdb39242bf11b47eee966e871d84a948f71,"
+          },
+          "$value": {
+            "hex": "#f5f6fa",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-magenta": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:bdbdaa645ff6a9b0096e9d29cfa68937e1211b89,"
+          },
+          "$value": {
+            "hex": "#fbedf4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:b55fc098faf333f0f3f02564f48779391d3d6350,"
+          },
+          "$value": {
+            "hex": "#f7dbea",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:a664f30c60fcfb5496f99cbb9ad78ec76ad0986e,"
+          },
+          "$value": {
+            "hex": "#f3c9e0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:36eacffed915e86b2c8e139e6f710bce21e2e1aa,"
+          },
+          "$value": {
+            "hex": "#efb7d6",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:8c3f7a9121527ee2e3f3cf0f8660e8a6e22cce76,"
+          },
+          "$value": {
+            "hex": "#eba5cb",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:ea6df413489f5d092da55adf6407bf8201843767,"
+          },
+          "$value": {
+            "hex": "#e793c1",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:e4a1df31ca456b22827ba1dc3d3a39f3154139b7,"
+          },
+          "$value": {
+            "hex": "#e382b7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:70c1d36274c2d77c4c96e7559e155c6017d24892,"
+          },
+          "$value": {
+            "hex": "#df6fad",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:cd7cbeb178a13eddff32fd0c2a5a8c0646a9ffb2,"
+          },
+          "$value": {
+            "hex": "#db5ea3",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:ae02794d4ef58b2dd5508410c8a5c7a276925067,"
+          },
+          "$value": {
+            "hex": "#d74b98",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:3789035e21bfd968ae5d36168df7078abae56718,"
+          },
+          "$value": {
+            "hex": "#ac3c7a",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:9066b5dac67b619ffb2c9d7c7e50a8274d2ce50e,"
+          },
+          "$value": {
+            "hex": "#812d5b",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:95d98dc1cd6a159198ff4a6ad197c1536b49bd87,"
+          },
+          "$value": {
+            "hex": "#561e3d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Magenta",
+          "dsys.nodeId": "2622:66286"
+        },
+        "$description": "Palette/Magenta color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:b53c601f75f9cdfe90e3ad07078fa79f57755b7c,"
+          },
+          "$value": {
+            "hex": "#fdf6fa",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      },
+      "palette-cyan": {
+        "10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "10",
+            "dsys.index": 9,
+            "dsys.styleId": "S:107a8616e69e39e6551b771848e7990292aa9d7f,"
+          },
+          "$value": {
+            "hex": "#e7f3f7",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "20": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "20",
+            "dsys.index": 8,
+            "dsys.styleId": "S:a345f514f9cec649e922443b425bf299811afdc3,"
+          },
+          "$value": {
+            "hex": "#cfe7f0",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "30": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "30",
+            "dsys.index": 7,
+            "dsys.styleId": "S:6c55137cd25a16e3e03955689bc0aa514708d414,"
+          },
+          "$value": {
+            "hex": "#b7dbe8",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "40",
+            "dsys.index": 6,
+            "dsys.styleId": "S:f2bc152686cc4c1a16d1d4ecfdf9e0ab12231760,"
+          },
+          "$value": {
+            "hex": "#9fcfe1",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "50",
+            "dsys.index": 5,
+            "dsys.styleId": "S:c5ef7079016060a387ad09b40e8fff7b0c2a82d1,"
+          },
+          "$value": {
+            "hex": "#87c3da",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "60": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "60",
+            "dsys.index": 4,
+            "dsys.styleId": "S:ae4cc09a896fae888575fbba3cf74c1a1fe86a25,"
+          },
+          "$value": {
+            "hex": "#87c3da",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "70": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "70",
+            "dsys.index": 3,
+            "dsys.styleId": "S:fc1616a34a3f9b0158067ecf27536007e1cfc9b8,"
+          },
+          "$value": {
+            "hex": "#58accc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "80": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "80",
+            "dsys.index": 2,
+            "dsys.styleId": "S:2d6cfa7fc299418198e289cd336408d9d12ee66d,"
+          },
+          "$value": {
+            "hex": "#409fc4",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "90": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "90",
+            "dsys.index": 1,
+            "dsys.styleId": "S:6e07546e939ecd1a7204a8607255fc7f3722ef34,"
+          },
+          "$value": {
+            "hex": "#2894bd",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "100",
+            "dsys.index": 0,
+            "dsys.styleId": "S:ca1aa24eb2cb902ad1e0c3d094e46bb2b5a201ba,"
+          },
+          "$value": {
+            "hex": "#1087b5",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "120": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "120",
+            "dsys.index": 11,
+            "dsys.styleId": "S:8310e513737bbe13acaee6756510732edbf6bb06,"
+          },
+          "$value": {
+            "hex": "#0d6c91",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "140": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "140",
+            "dsys.index": 12,
+            "dsys.styleId": "S:79e3700f08dc1ab9c64b67052f670c68e862788e,"
+          },
+          "$value": {
+            "hex": "#0a516d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "160": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "160",
+            "dsys.index": 13,
+            "dsys.styleId": "S:a0a7bbc0dcc6b4fee295d3202b54e3e826326e94,"
+          },
+          "$value": {
+            "hex": "#063648",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "Palette/Cyan",
+          "dsys.nodeId": "2622:66807"
+        },
+        "$description": "Palette/Cyan color tokens",
+        "05": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "05",
+            "dsys.index": 10,
+            "dsys.styleId": "S:e1b56eac74b5032c8514d2b490492221d8875b5e,"
+          },
+          "$value": {
+            "hex": "#f3f9fb",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      }
+    },
+    "type": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "TypographySet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the type tokens",
+      "heading": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "Heading",
+          "dsys.nodeId": "2622:58496"
+        },
+        "$description": "Heading typography tokens",
+        "Heading 1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 1",
+            "dsys.index": 0,
+            "dsys.styleId": "S:ccd484ece5c00bc1958973b06b57fd84989257fc,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 32,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 40
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 1b": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 1b",
+            "dsys.index": 1,
+            "dsys.styleId": "S:3aaf9789797dd227f394d19f59891a6de7e6c354,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 32,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 30
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 2",
+            "dsys.index": 2,
+            "dsys.styleId": "S:130c5f3fcbe5ef0a93a999021ca1eb7857bf2e48,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 32
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 2b": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 2b",
+            "dsys.index": 3,
+            "dsys.styleId": "S:c8f4724a30d0565802be7c6f7100599f8fb7c51a,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 32
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 3",
+            "dsys.index": 4,
+            "dsys.styleId": "S:f4420427ce5d6d566e49cc3091eeedaa6b2f2cb8,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 20,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 3b": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 3b",
+            "dsys.index": 5,
+            "dsys.styleId": "S:50d4ae67d268157901c91f67cf0b755468578aae,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 20,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 4",
+            "dsys.index": 6,
+            "dsys.styleId": "S:bbea50182bade007c16050e4e34dd6856b109b8a,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 18,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 5",
+            "dsys.index": 7,
+            "dsys.styleId": "S:55836dd0ffa4f221095870ad69dbcb1b866cdca8,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 5b": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 5b",
+            "dsys.index": 8,
+            "dsys.styleId": "S:2b8d5d49fc9c40dae2fc3372dbd0dcb90d784e6d,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 6",
+            "dsys.index": 9,
+            "dsys.styleId": "S:59e12eddd0d3cce8dabd6fb0430b108ccd4d1a0b,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 18
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      },
+      "body": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "Body",
+          "dsys.nodeId": "2622:58900"
+        },
+        "$description": "Body typography tokens",
+        "Link": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Link",
+            "dsys.index": 0,
+            "dsys.styleId": "S:5caabb2bddec73859f60c342b85666eb9600c636,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "listSpacing": 9,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "UNDERLINE"
+          },
+          "$type": "typography"
+        },
+        "Label Bold": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Label Bold",
+            "dsys.index": 1,
+            "dsys.styleId": "S:be774442c04a9f247a920110e578e549bb4dd5e9,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 12,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Label": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Label",
+            "dsys.index": 2,
+            "dsys.styleId": "S:632781a37a491bc3972976fbca3a82bfba238937,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 12,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Button": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Button",
+            "dsys.index": 3,
+            "dsys.styleId": "S:127700c1670b06f8368206bda2a53b43b60c3911,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Medium"
+            },
+            "fontWeight": 500,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "listSpacing": 9,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Caption": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Caption",
+            "dsys.index": 4,
+            "dsys.styleId": "S:771db5e1ed4da2f1081c1a699713e094e0c647bc,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 12,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Body 1/SemiBold": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Body 1/SemiBold",
+            "dsys.index": 5,
+            "dsys.styleId": "S:8433152fb07dbd5191c13590108280cdb38100cb,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Body 1/Regular": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Body 1/Regular",
+            "dsys.index": 6,
+            "dsys.styleId": "S:227062e8cce0638b530efc70284ef396a4e417f8,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Body 1/Regular Underlined": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Body 1/Regular Underlined",
+            "dsys.index": 7,
+            "dsys.styleId": "S:63f79059175cae4413a772922c0a8889927716c5,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "UNDERLINE"
+          },
+          "$type": "typography"
+        },
+        "Body 2/Regular": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Body 2/Regular",
+            "dsys.index": 8,
+            "dsys.styleId": "S:e9e831e9b361c16e09b94f475198f265da289e35,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Body 2/SemiBold": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Body 2/SemiBold",
+            "dsys.index": 9,
+            "dsys.styleId": "S:ad04f2ba57b99f7c8556f0ed816e6183fcd036d3,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Semi Bold"
+            },
+            "fontWeight": 600,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 24
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 9,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Body 2/Regular Underlined": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Body 2/Regular Underlined",
+            "dsys.index": 10,
+            "dsys.styleId": "S:0587d5e56019fbf1ba948659af956679de8d4f0a,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 18
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "UNDERLINE"
+          },
+          "$type": "typography"
+        },
+        "Subtitle/Subtitle 2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Subtitle/Subtitle 2",
+            "dsys.index": 11,
+            "dsys.styleId": "S:fd2673557000f2fb606207781a190005403078ef,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 18
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Subtitle/Subtitle 1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Subtitle/Subtitle 1",
+            "dsys.index": 12,
+            "dsys.styleId": "S:9ebd50fb53a27b9739c6f3f7bb2442fcaa555317,"
+          },
+          "$value": {
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Inter",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      },
+      "display": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "Display",
+          "dsys.nodeId": "2622:59471"
+        },
+        "$description": "Display typography tokens",
+        "Heading 1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 1",
+            "dsys.index": 0,
+            "dsys.styleId": "S:7196a66308d8e817fd2230ecc70212faf37283aa,"
+          },
+          "$value": {
+            "fontFamily": "ITC Avant Garde Gothic Pro",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "ITC Avant Garde Gothic Pro",
+              "style": "Bold"
+            },
+            "fontWeight": 700,
+            "fontSize": 32,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 36
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "Heading 2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Heading 2",
+            "dsys.index": 1,
+            "dsys.styleId": "S:2bb2f86e9939f904896cfcd771798edecc79bb57,"
+          },
+          "$value": {
+            "fontFamily": "ITC Avant Garde Gothic Pro",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "ITC Avant Garde Gothic Pro",
+              "style": "Bold"
+            },
+            "fontWeight": 700,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PIXELS",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 30
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      }
+    },
+    "component": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ComponentSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the component tokens",
+      "button": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Button",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Button",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "1798:30679"
+        }
+      }
     }
   }
 }
