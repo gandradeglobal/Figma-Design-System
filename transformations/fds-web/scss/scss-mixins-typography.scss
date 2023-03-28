@@ -1,1 +1,225 @@
-tokens not found
+@mixin font-heading-1 {
+  font: var( --lib-type-heading-1 );
+}
+@mixin font-heading-1-size {
+  font: var( --lib-type-heading-1-size );
+}
+@mixin font-heading-1-weight {
+  font: var( --lib-type-heading-1-weight );
+}
+@mixin font-heading-1-b {
+  font: var( --lib-type-heading-1-b );
+}
+@mixin font-heading-1-b-size {
+  font: var( --lib-type-heading-1-b-size );
+}
+@mixin font-heading-1-b-weight {
+  font: var( --lib-type-heading-1-b-weight );
+}
+@mixin font-heading-2 {
+  font: var( --lib-type-heading-2 );
+}
+@mixin font-heading-2-size {
+  font: var( --lib-type-heading-2-size );
+}
+@mixin font-heading-2-weight {
+  font: var( --lib-type-heading-2-weight );
+}
+@mixin font-heading-2-b {
+  font: var( --lib-type-heading-2-b );
+}
+@mixin font-heading-2-b-size {
+  font: var( --lib-type-heading-2-b-size );
+}
+@mixin font-heading-2-b-weight {
+  font: var( --lib-type-heading-2-b-weight );
+}
+@mixin font-heading-3 {
+  font: var( --lib-type-heading-3 );
+}
+@mixin font-heading-3-size {
+  font: var( --lib-type-heading-3-size );
+}
+@mixin font-heading-3-weight {
+  font: var( --lib-type-heading-3-weight );
+}
+@mixin font-heading-3-b {
+  font: var( --lib-type-heading-3-b );
+}
+@mixin font-heading-3-b-size {
+  font: var( --lib-type-heading-3-b-size );
+}
+@mixin font-heading-3-b-weight {
+  font: var( --lib-type-heading-3-b-weight );
+}
+@mixin font-heading-4 {
+  font: var( --lib-type-heading-4 );
+}
+@mixin font-heading-4-size {
+  font: var( --lib-type-heading-4-size );
+}
+@mixin font-heading-4-weight {
+  font: var( --lib-type-heading-4-weight );
+}
+@mixin font-heading-5 {
+  font: var( --lib-type-heading-5 );
+}
+@mixin font-heading-5-size {
+  font: var( --lib-type-heading-5-size );
+}
+@mixin font-heading-5-weight {
+  font: var( --lib-type-heading-5-weight );
+}
+@mixin font-heading-5-b {
+  font: var( --lib-type-heading-5-b );
+}
+@mixin font-heading-5-b-size {
+  font: var( --lib-type-heading-5-b-size );
+}
+@mixin font-heading-5-b-weight {
+  font: var( --lib-type-heading-5-b-weight );
+}
+@mixin font-heading-6 {
+  font: var( --lib-type-heading-6 );
+}
+@mixin font-heading-6-size {
+  font: var( --lib-type-heading-6-size );
+}
+@mixin font-heading-6-weight {
+  font: var( --lib-type-heading-6-weight );
+}
+@mixin font-link {
+  font: var( --lib-type-link );
+}
+@mixin font-link-size {
+  font: var( --lib-type-link-size );
+}
+@mixin font-link-weight {
+  font: var( --lib-type-link-weight );
+}
+@mixin font-label-bold {
+  font: var( --lib-type-label-bold );
+}
+@mixin font-label-bold-size {
+  font: var( --lib-type-label-bold-size );
+}
+@mixin font-label-bold-weight {
+  font: var( --lib-type-label-bold-weight );
+}
+@mixin font-label {
+  font: var( --lib-type-label );
+}
+@mixin font-label-size {
+  font: var( --lib-type-label-size );
+}
+@mixin font-label-weight {
+  font: var( --lib-type-label-weight );
+}
+@mixin font-button {
+  font: var( --lib-type-button );
+}
+@mixin font-button-size {
+  font: var( --lib-type-button-size );
+}
+@mixin font-button-weight {
+  font: var( --lib-type-button-weight );
+}
+@mixin font-caption {
+  font: var( --lib-type-caption );
+}
+@mixin font-caption-size {
+  font: var( --lib-type-caption-size );
+}
+@mixin font-caption-weight {
+  font: var( --lib-type-caption-weight );
+}
+@mixin font-body-1-semi-bold {
+  font: var( --lib-type-body-1-semi-bold );
+}
+@mixin font-body-1-semi-bold-size {
+  font: var( --lib-type-body-1-semi-bold-size );
+}
+@mixin font-body-1-semi-bold-weight {
+  font: var( --lib-type-body-1-semi-bold-weight );
+}
+@mixin font-body-1-regular {
+  font: var( --lib-type-body-1-regular );
+}
+@mixin font-body-1-regular-size {
+  font: var( --lib-type-body-1-regular-size );
+}
+@mixin font-body-1-regular-weight {
+  font: var( --lib-type-body-1-regular-weight );
+}
+@mixin font-body-1-regular-underlined {
+  font: var( --lib-type-body-1-regular-underlined );
+}
+@mixin font-body-1-regular-underlined-size {
+  font: var( --lib-type-body-1-regular-underlined-size );
+}
+@mixin font-body-1-regular-underlined-weight {
+  font: var( --lib-type-body-1-regular-underlined-weight );
+}
+@mixin font-body-2-regular {
+  font: var( --lib-type-body-2-regular );
+}
+@mixin font-body-2-regular-size {
+  font: var( --lib-type-body-2-regular-size );
+}
+@mixin font-body-2-regular-weight {
+  font: var( --lib-type-body-2-regular-weight );
+}
+@mixin font-body-2-semi-bold {
+  font: var( --lib-type-body-2-semi-bold );
+}
+@mixin font-body-2-semi-bold-size {
+  font: var( --lib-type-body-2-semi-bold-size );
+}
+@mixin font-body-2-semi-bold-weight {
+  font: var( --lib-type-body-2-semi-bold-weight );
+}
+@mixin font-body-2-regular-underlined {
+  font: var( --lib-type-body-2-regular-underlined );
+}
+@mixin font-body-2-regular-underlined-size {
+  font: var( --lib-type-body-2-regular-underlined-size );
+}
+@mixin font-body-2-regular-underlined-weight {
+  font: var( --lib-type-body-2-regular-underlined-weight );
+}
+@mixin font-subtitle-subtitle-2 {
+  font: var( --lib-type-subtitle-subtitle-2 );
+}
+@mixin font-subtitle-subtitle-2-size {
+  font: var( --lib-type-subtitle-subtitle-2-size );
+}
+@mixin font-subtitle-subtitle-2-weight {
+  font: var( --lib-type-subtitle-subtitle-2-weight );
+}
+@mixin font-subtitle-subtitle-1 {
+  font: var( --lib-type-subtitle-subtitle-1 );
+}
+@mixin font-subtitle-subtitle-1-size {
+  font: var( --lib-type-subtitle-subtitle-1-size );
+}
+@mixin font-subtitle-subtitle-1-weight {
+  font: var( --lib-type-subtitle-subtitle-1-weight );
+}
+@mixin font-heading-1 {
+  font: var( --lib-type-heading-1 );
+}
+@mixin font-heading-1-size {
+  font: var( --lib-type-heading-1-size );
+}
+@mixin font-heading-1-weight {
+  font: var( --lib-type-heading-1-weight );
+}
+@mixin font-heading-2 {
+  font: var( --lib-type-heading-2 );
+}
+@mixin font-heading-2-size {
+  font: var( --lib-type-heading-2-size );
+}
+@mixin font-heading-2-weight {
+  font: var( --lib-type-heading-2-weight );
+}
