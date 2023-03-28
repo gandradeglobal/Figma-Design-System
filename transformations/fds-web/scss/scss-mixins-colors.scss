@@ -1,1 +1,4824 @@
-tokens not found
+@mixin background-color-neutral-white {
+  --background-color: var( --lib-color-neutral-white );
+  background-color: var( --background-color );
+}
+@mixin background-color-neutral-lighter {
+  --background-color: var( --lib-color-neutral-lighter );
+  background-color: var( --background-color );
+}
+@mixin background-color-neutral-light {
+  --background-color: var( --lib-color-neutral-light );
+  background-color: var( --background-color );
+}
+@mixin background-color-neutral-base {
+  --background-color: var( --lib-color-neutral-base );
+  background-color: var( --background-color );
+}
+@mixin background-color-neutral-dark {
+  --background-color: var( --lib-color-neutral-dark );
+  background-color: var( --background-color );
+}
+@mixin background-color-neutral-text {
+  --background-color: var( --lib-color-neutral-text );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-success-base {
+  --background-color: var( --lib-color-status-success-base );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-success-light {
+  --background-color: var( --lib-color-status-success-light );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-success-dark {
+  --background-color: var( --lib-color-status-success-dark );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-error-base {
+  --background-color: var( --lib-color-status-error-base );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-error-light {
+  --background-color: var( --lib-color-status-error-light );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-error-dark {
+  --background-color: var( --lib-color-status-error-dark );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-warning-base {
+  --background-color: var( --lib-color-status-warning-base );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-warning-light {
+  --background-color: var( --lib-color-status-warning-light );
+  background-color: var( --background-color );
+}
+@mixin background-color-status-warning-dark {
+  --background-color: var( --lib-color-status-warning-dark );
+  background-color: var( --background-color );
+}
+@mixin background-color-primary-base {
+  --background-color: var( --lib-color-primary-base );
+  background-color: var( --background-color );
+}
+@mixin background-color-primary-dark {
+  --background-color: var( --lib-color-primary-dark );
+  background-color: var( --background-color );
+}
+@mixin background-color-primary-light {
+  --background-color: var( --lib-color-primary-light );
+  background-color: var( --background-color );
+}
+@mixin background-color-secondary-base {
+  --background-color: var( --lib-color-secondary-base );
+  background-color: var( --background-color );
+}
+@mixin background-color-secondary-light {
+  --background-color: var( --lib-color-secondary-light );
+  background-color: var( --background-color );
+}
+@mixin background-color-secondary-dark {
+  --background-color: var( --lib-color-secondary-dark );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-180 {
+  --background-color: var( --lib-color-180 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-10 {
+  --background-color: var( --lib-color-10 );
+  background-color: var( --background-color );
+}
+@mixin background-color-20 {
+  --background-color: var( --lib-color-20 );
+  background-color: var( --background-color );
+}
+@mixin background-color-30 {
+  --background-color: var( --lib-color-30 );
+  background-color: var( --background-color );
+}
+@mixin background-color-40 {
+  --background-color: var( --lib-color-40 );
+  background-color: var( --background-color );
+}
+@mixin background-color-50 {
+  --background-color: var( --lib-color-50 );
+  background-color: var( --background-color );
+}
+@mixin background-color-60 {
+  --background-color: var( --lib-color-60 );
+  background-color: var( --background-color );
+}
+@mixin background-color-70 {
+  --background-color: var( --lib-color-70 );
+  background-color: var( --background-color );
+}
+@mixin background-color-80 {
+  --background-color: var( --lib-color-80 );
+  background-color: var( --background-color );
+}
+@mixin background-color-90 {
+  --background-color: var( --lib-color-90 );
+  background-color: var( --background-color );
+}
+@mixin background-color-100 {
+  --background-color: var( --lib-color-100 );
+  background-color: var( --background-color );
+}
+@mixin background-color-120 {
+  --background-color: var( --lib-color-120 );
+  background-color: var( --background-color );
+}
+@mixin background-color-140 {
+  --background-color: var( --lib-color-140 );
+  background-color: var( --background-color );
+}
+@mixin background-color-160 {
+  --background-color: var( --lib-color-160 );
+  background-color: var( --background-color );
+}
+@mixin background-color-05 {
+  --background-color: var( --lib-color-05 );
+  background-color: var( --background-color );
+}
+@mixin background-color-hover-neutral-white {
+  &:hover {
+    background-color: var( --lib-color-neutral-white );
+  }
+}
+@mixin background-color-hover-neutral-lighter {
+  &:hover {
+    background-color: var( --lib-color-neutral-lighter );
+  }
+}
+@mixin background-color-hover-neutral-light {
+  &:hover {
+    background-color: var( --lib-color-neutral-light );
+  }
+}
+@mixin background-color-hover-neutral-base {
+  &:hover {
+    background-color: var( --lib-color-neutral-base );
+  }
+}
+@mixin background-color-hover-neutral-dark {
+  &:hover {
+    background-color: var( --lib-color-neutral-dark );
+  }
+}
+@mixin background-color-hover-neutral-text {
+  &:hover {
+    background-color: var( --lib-color-neutral-text );
+  }
+}
+@mixin background-color-hover-status-success-base {
+  &:hover {
+    background-color: var( --lib-color-status-success-base );
+  }
+}
+@mixin background-color-hover-status-success-light {
+  &:hover {
+    background-color: var( --lib-color-status-success-light );
+  }
+}
+@mixin background-color-hover-status-success-dark {
+  &:hover {
+    background-color: var( --lib-color-status-success-dark );
+  }
+}
+@mixin background-color-hover-status-error-base {
+  &:hover {
+    background-color: var( --lib-color-status-error-base );
+  }
+}
+@mixin background-color-hover-status-error-light {
+  &:hover {
+    background-color: var( --lib-color-status-error-light );
+  }
+}
+@mixin background-color-hover-status-error-dark {
+  &:hover {
+    background-color: var( --lib-color-status-error-dark );
+  }
+}
+@mixin background-color-hover-status-warning-base {
+  &:hover {
+    background-color: var( --lib-color-status-warning-base );
+  }
+}
+@mixin background-color-hover-status-warning-light {
+  &:hover {
+    background-color: var( --lib-color-status-warning-light );
+  }
+}
+@mixin background-color-hover-status-warning-dark {
+  &:hover {
+    background-color: var( --lib-color-status-warning-dark );
+  }
+}
+@mixin background-color-hover-primary-base {
+  &:hover {
+    background-color: var( --lib-color-primary-base );
+  }
+}
+@mixin background-color-hover-primary-dark {
+  &:hover {
+    background-color: var( --lib-color-primary-dark );
+  }
+}
+@mixin background-color-hover-primary-light {
+  &:hover {
+    background-color: var( --lib-color-primary-light );
+  }
+}
+@mixin background-color-hover-secondary-base {
+  &:hover {
+    background-color: var( --lib-color-secondary-base );
+  }
+}
+@mixin background-color-hover-secondary-light {
+  &:hover {
+    background-color: var( --lib-color-secondary-light );
+  }
+}
+@mixin background-color-hover-secondary-dark {
+  &:hover {
+    background-color: var( --lib-color-secondary-dark );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-180 {
+  &:hover {
+    background-color: var( --lib-color-180 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin background-color-hover-10 {
+  &:hover {
+    background-color: var( --lib-color-10 );
+  }
+}
+@mixin background-color-hover-20 {
+  &:hover {
+    background-color: var( --lib-color-20 );
+  }
+}
+@mixin background-color-hover-30 {
+  &:hover {
+    background-color: var( --lib-color-30 );
+  }
+}
+@mixin background-color-hover-40 {
+  &:hover {
+    background-color: var( --lib-color-40 );
+  }
+}
+@mixin background-color-hover-50 {
+  &:hover {
+    background-color: var( --lib-color-50 );
+  }
+}
+@mixin background-color-hover-60 {
+  &:hover {
+    background-color: var( --lib-color-60 );
+  }
+}
+@mixin background-color-hover-70 {
+  &:hover {
+    background-color: var( --lib-color-70 );
+  }
+}
+@mixin background-color-hover-80 {
+  &:hover {
+    background-color: var( --lib-color-80 );
+  }
+}
+@mixin background-color-hover-90 {
+  &:hover {
+    background-color: var( --lib-color-90 );
+  }
+}
+@mixin background-color-hover-100 {
+  &:hover {
+    background-color: var( --lib-color-100 );
+  }
+}
+@mixin background-color-hover-120 {
+  &:hover {
+    background-color: var( --lib-color-120 );
+  }
+}
+@mixin background-color-hover-140 {
+  &:hover {
+    background-color: var( --lib-color-140 );
+  }
+}
+@mixin background-color-hover-160 {
+  &:hover {
+    background-color: var( --lib-color-160 );
+  }
+}
+@mixin background-color-hover-05 {
+  &:hover {
+    background-color: var( --lib-color-05 );
+  }
+}
+@mixin color-neutral-white {
+  --color: var( --lib-color-neutral-white );
+  color: var( --color );
+}
+@mixin color-neutral-lighter {
+  --color: var( --lib-color-neutral-lighter );
+  color: var( --color );
+}
+@mixin color-neutral-light {
+  --color: var( --lib-color-neutral-light );
+  color: var( --color );
+}
+@mixin color-neutral-base {
+  --color: var( --lib-color-neutral-base );
+  color: var( --color );
+}
+@mixin color-neutral-dark {
+  --color: var( --lib-color-neutral-dark );
+  color: var( --color );
+}
+@mixin color-neutral-text {
+  --color: var( --lib-color-neutral-text );
+  color: var( --color );
+}
+@mixin color-status-success-base {
+  --color: var( --lib-color-status-success-base );
+  color: var( --color );
+}
+@mixin color-status-success-light {
+  --color: var( --lib-color-status-success-light );
+  color: var( --color );
+}
+@mixin color-status-success-dark {
+  --color: var( --lib-color-status-success-dark );
+  color: var( --color );
+}
+@mixin color-status-error-base {
+  --color: var( --lib-color-status-error-base );
+  color: var( --color );
+}
+@mixin color-status-error-light {
+  --color: var( --lib-color-status-error-light );
+  color: var( --color );
+}
+@mixin color-status-error-dark {
+  --color: var( --lib-color-status-error-dark );
+  color: var( --color );
+}
+@mixin color-status-warning-base {
+  --color: var( --lib-color-status-warning-base );
+  color: var( --color );
+}
+@mixin color-status-warning-light {
+  --color: var( --lib-color-status-warning-light );
+  color: var( --color );
+}
+@mixin color-status-warning-dark {
+  --color: var( --lib-color-status-warning-dark );
+  color: var( --color );
+}
+@mixin color-primary-base {
+  --color: var( --lib-color-primary-base );
+  color: var( --color );
+}
+@mixin color-primary-dark {
+  --color: var( --lib-color-primary-dark );
+  color: var( --color );
+}
+@mixin color-primary-light {
+  --color: var( --lib-color-primary-light );
+  color: var( --color );
+}
+@mixin color-secondary-base {
+  --color: var( --lib-color-secondary-base );
+  color: var( --color );
+}
+@mixin color-secondary-light {
+  --color: var( --lib-color-secondary-light );
+  color: var( --color );
+}
+@mixin color-secondary-dark {
+  --color: var( --lib-color-secondary-dark );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-180 {
+  --color: var( --lib-color-180 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-10 {
+  --color: var( --lib-color-10 );
+  color: var( --color );
+}
+@mixin color-20 {
+  --color: var( --lib-color-20 );
+  color: var( --color );
+}
+@mixin color-30 {
+  --color: var( --lib-color-30 );
+  color: var( --color );
+}
+@mixin color-40 {
+  --color: var( --lib-color-40 );
+  color: var( --color );
+}
+@mixin color-50 {
+  --color: var( --lib-color-50 );
+  color: var( --color );
+}
+@mixin color-60 {
+  --color: var( --lib-color-60 );
+  color: var( --color );
+}
+@mixin color-70 {
+  --color: var( --lib-color-70 );
+  color: var( --color );
+}
+@mixin color-80 {
+  --color: var( --lib-color-80 );
+  color: var( --color );
+}
+@mixin color-90 {
+  --color: var( --lib-color-90 );
+  color: var( --color );
+}
+@mixin color-100 {
+  --color: var( --lib-color-100 );
+  color: var( --color );
+}
+@mixin color-120 {
+  --color: var( --lib-color-120 );
+  color: var( --color );
+}
+@mixin color-140 {
+  --color: var( --lib-color-140 );
+  color: var( --color );
+}
+@mixin color-160 {
+  --color: var( --lib-color-160 );
+  color: var( --color );
+}
+@mixin color-05 {
+  --color: var( --lib-color-05 );
+  color: var( --color );
+}
+@mixin color-hover-neutral-white {
+  &:hover {
+    color: var( --lib-color-neutral-white );
+  }
+}
+@mixin color-hover-neutral-lighter {
+  &:hover {
+    color: var( --lib-color-neutral-lighter );
+  }
+}
+@mixin color-hover-neutral-light {
+  &:hover {
+    color: var( --lib-color-neutral-light );
+  }
+}
+@mixin color-hover-neutral-base {
+  &:hover {
+    color: var( --lib-color-neutral-base );
+  }
+}
+@mixin color-hover-neutral-dark {
+  &:hover {
+    color: var( --lib-color-neutral-dark );
+  }
+}
+@mixin color-hover-neutral-text {
+  &:hover {
+    color: var( --lib-color-neutral-text );
+  }
+}
+@mixin color-hover-status-success-base {
+  &:hover {
+    color: var( --lib-color-status-success-base );
+  }
+}
+@mixin color-hover-status-success-light {
+  &:hover {
+    color: var( --lib-color-status-success-light );
+  }
+}
+@mixin color-hover-status-success-dark {
+  &:hover {
+    color: var( --lib-color-status-success-dark );
+  }
+}
+@mixin color-hover-status-error-base {
+  &:hover {
+    color: var( --lib-color-status-error-base );
+  }
+}
+@mixin color-hover-status-error-light {
+  &:hover {
+    color: var( --lib-color-status-error-light );
+  }
+}
+@mixin color-hover-status-error-dark {
+  &:hover {
+    color: var( --lib-color-status-error-dark );
+  }
+}
+@mixin color-hover-status-warning-base {
+  &:hover {
+    color: var( --lib-color-status-warning-base );
+  }
+}
+@mixin color-hover-status-warning-light {
+  &:hover {
+    color: var( --lib-color-status-warning-light );
+  }
+}
+@mixin color-hover-status-warning-dark {
+  &:hover {
+    color: var( --lib-color-status-warning-dark );
+  }
+}
+@mixin color-hover-primary-base {
+  &:hover {
+    color: var( --lib-color-primary-base );
+  }
+}
+@mixin color-hover-primary-dark {
+  &:hover {
+    color: var( --lib-color-primary-dark );
+  }
+}
+@mixin color-hover-primary-light {
+  &:hover {
+    color: var( --lib-color-primary-light );
+  }
+}
+@mixin color-hover-secondary-base {
+  &:hover {
+    color: var( --lib-color-secondary-base );
+  }
+}
+@mixin color-hover-secondary-light {
+  &:hover {
+    color: var( --lib-color-secondary-light );
+  }
+}
+@mixin color-hover-secondary-dark {
+  &:hover {
+    color: var( --lib-color-secondary-dark );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-180 {
+  &:hover {
+    color: var( --lib-color-180 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin color-hover-10 {
+  &:hover {
+    color: var( --lib-color-10 );
+  }
+}
+@mixin color-hover-20 {
+  &:hover {
+    color: var( --lib-color-20 );
+  }
+}
+@mixin color-hover-30 {
+  &:hover {
+    color: var( --lib-color-30 );
+  }
+}
+@mixin color-hover-40 {
+  &:hover {
+    color: var( --lib-color-40 );
+  }
+}
+@mixin color-hover-50 {
+  &:hover {
+    color: var( --lib-color-50 );
+  }
+}
+@mixin color-hover-60 {
+  &:hover {
+    color: var( --lib-color-60 );
+  }
+}
+@mixin color-hover-70 {
+  &:hover {
+    color: var( --lib-color-70 );
+  }
+}
+@mixin color-hover-80 {
+  &:hover {
+    color: var( --lib-color-80 );
+  }
+}
+@mixin color-hover-90 {
+  &:hover {
+    color: var( --lib-color-90 );
+  }
+}
+@mixin color-hover-100 {
+  &:hover {
+    color: var( --lib-color-100 );
+  }
+}
+@mixin color-hover-120 {
+  &:hover {
+    color: var( --lib-color-120 );
+  }
+}
+@mixin color-hover-140 {
+  &:hover {
+    color: var( --lib-color-140 );
+  }
+}
+@mixin color-hover-160 {
+  &:hover {
+    color: var( --lib-color-160 );
+  }
+}
+@mixin color-hover-05 {
+  &:hover {
+    color: var( --lib-color-05 );
+  }
+}
+@mixin border-color-neutral-white {
+  border-color: var( --lib-color-neutral-white );
+}
+@mixin border-color-neutral-lighter {
+  border-color: var( --lib-color-neutral-lighter );
+}
+@mixin border-color-neutral-light {
+  border-color: var( --lib-color-neutral-light );
+}
+@mixin border-color-neutral-base {
+  border-color: var( --lib-color-neutral-base );
+}
+@mixin border-color-neutral-dark {
+  border-color: var( --lib-color-neutral-dark );
+}
+@mixin border-color-neutral-text {
+  border-color: var( --lib-color-neutral-text );
+}
+@mixin border-color-status-success-base {
+  border-color: var( --lib-color-status-success-base );
+}
+@mixin border-color-status-success-light {
+  border-color: var( --lib-color-status-success-light );
+}
+@mixin border-color-status-success-dark {
+  border-color: var( --lib-color-status-success-dark );
+}
+@mixin border-color-status-error-base {
+  border-color: var( --lib-color-status-error-base );
+}
+@mixin border-color-status-error-light {
+  border-color: var( --lib-color-status-error-light );
+}
+@mixin border-color-status-error-dark {
+  border-color: var( --lib-color-status-error-dark );
+}
+@mixin border-color-status-warning-base {
+  border-color: var( --lib-color-status-warning-base );
+}
+@mixin border-color-status-warning-light {
+  border-color: var( --lib-color-status-warning-light );
+}
+@mixin border-color-status-warning-dark {
+  border-color: var( --lib-color-status-warning-dark );
+}
+@mixin border-color-primary-base {
+  border-color: var( --lib-color-primary-base );
+}
+@mixin border-color-primary-dark {
+  border-color: var( --lib-color-primary-dark );
+}
+@mixin border-color-primary-light {
+  border-color: var( --lib-color-primary-light );
+}
+@mixin border-color-secondary-base {
+  border-color: var( --lib-color-secondary-base );
+}
+@mixin border-color-secondary-light {
+  border-color: var( --lib-color-secondary-light );
+}
+@mixin border-color-secondary-dark {
+  border-color: var( --lib-color-secondary-dark );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-180 {
+  border-color: var( --lib-color-180 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-color-10 {
+  border-color: var( --lib-color-10 );
+}
+@mixin border-color-20 {
+  border-color: var( --lib-color-20 );
+}
+@mixin border-color-30 {
+  border-color: var( --lib-color-30 );
+}
+@mixin border-color-40 {
+  border-color: var( --lib-color-40 );
+}
+@mixin border-color-50 {
+  border-color: var( --lib-color-50 );
+}
+@mixin border-color-60 {
+  border-color: var( --lib-color-60 );
+}
+@mixin border-color-70 {
+  border-color: var( --lib-color-70 );
+}
+@mixin border-color-80 {
+  border-color: var( --lib-color-80 );
+}
+@mixin border-color-90 {
+  border-color: var( --lib-color-90 );
+}
+@mixin border-color-100 {
+  border-color: var( --lib-color-100 );
+}
+@mixin border-color-120 {
+  border-color: var( --lib-color-120 );
+}
+@mixin border-color-140 {
+  border-color: var( --lib-color-140 );
+}
+@mixin border-color-160 {
+  border-color: var( --lib-color-160 );
+}
+@mixin border-color-05 {
+  border-color: var( --lib-color-05 );
+}
+@mixin border-neutral-white {
+  border: 1px solid var( --lib-color-neutral-white );
+}
+@mixin border-neutral-lighter {
+  border: 1px solid var( --lib-color-neutral-lighter );
+}
+@mixin border-neutral-light {
+  border: 1px solid var( --lib-color-neutral-light );
+}
+@mixin border-neutral-base {
+  border: 1px solid var( --lib-color-neutral-base );
+}
+@mixin border-neutral-dark {
+  border: 1px solid var( --lib-color-neutral-dark );
+}
+@mixin border-neutral-text {
+  border: 1px solid var( --lib-color-neutral-text );
+}
+@mixin border-status-success-base {
+  border: 1px solid var( --lib-color-status-success-base );
+}
+@mixin border-status-success-light {
+  border: 1px solid var( --lib-color-status-success-light );
+}
+@mixin border-status-success-dark {
+  border: 1px solid var( --lib-color-status-success-dark );
+}
+@mixin border-status-error-base {
+  border: 1px solid var( --lib-color-status-error-base );
+}
+@mixin border-status-error-light {
+  border: 1px solid var( --lib-color-status-error-light );
+}
+@mixin border-status-error-dark {
+  border: 1px solid var( --lib-color-status-error-dark );
+}
+@mixin border-status-warning-base {
+  border: 1px solid var( --lib-color-status-warning-base );
+}
+@mixin border-status-warning-light {
+  border: 1px solid var( --lib-color-status-warning-light );
+}
+@mixin border-status-warning-dark {
+  border: 1px solid var( --lib-color-status-warning-dark );
+}
+@mixin border-primary-base {
+  border: 1px solid var( --lib-color-primary-base );
+}
+@mixin border-primary-dark {
+  border: 1px solid var( --lib-color-primary-dark );
+}
+@mixin border-primary-light {
+  border: 1px solid var( --lib-color-primary-light );
+}
+@mixin border-secondary-base {
+  border: 1px solid var( --lib-color-secondary-base );
+}
+@mixin border-secondary-light {
+  border: 1px solid var( --lib-color-secondary-light );
+}
+@mixin border-secondary-dark {
+  border: 1px solid var( --lib-color-secondary-dark );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-180 {
+  border: 1px solid var( --lib-color-180 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-10 {
+  border: 1px solid var( --lib-color-10 );
+}
+@mixin border-20 {
+  border: 1px solid var( --lib-color-20 );
+}
+@mixin border-30 {
+  border: 1px solid var( --lib-color-30 );
+}
+@mixin border-40 {
+  border: 1px solid var( --lib-color-40 );
+}
+@mixin border-50 {
+  border: 1px solid var( --lib-color-50 );
+}
+@mixin border-60 {
+  border: 1px solid var( --lib-color-60 );
+}
+@mixin border-70 {
+  border: 1px solid var( --lib-color-70 );
+}
+@mixin border-80 {
+  border: 1px solid var( --lib-color-80 );
+}
+@mixin border-90 {
+  border: 1px solid var( --lib-color-90 );
+}
+@mixin border-100 {
+  border: 1px solid var( --lib-color-100 );
+}
+@mixin border-120 {
+  border: 1px solid var( --lib-color-120 );
+}
+@mixin border-140 {
+  border: 1px solid var( --lib-color-140 );
+}
+@mixin border-160 {
+  border: 1px solid var( --lib-color-160 );
+}
+@mixin border-05 {
+  border: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-neutral-white {
+  border-top: 1px solid var( --lib-color-neutral-white );
+}
+@mixin border-top-neutral-lighter {
+  border-top: 1px solid var( --lib-color-neutral-lighter );
+}
+@mixin border-top-neutral-light {
+  border-top: 1px solid var( --lib-color-neutral-light );
+}
+@mixin border-top-neutral-base {
+  border-top: 1px solid var( --lib-color-neutral-base );
+}
+@mixin border-top-neutral-dark {
+  border-top: 1px solid var( --lib-color-neutral-dark );
+}
+@mixin border-top-neutral-text {
+  border-top: 1px solid var( --lib-color-neutral-text );
+}
+@mixin border-top-status-success-base {
+  border-top: 1px solid var( --lib-color-status-success-base );
+}
+@mixin border-top-status-success-light {
+  border-top: 1px solid var( --lib-color-status-success-light );
+}
+@mixin border-top-status-success-dark {
+  border-top: 1px solid var( --lib-color-status-success-dark );
+}
+@mixin border-top-status-error-base {
+  border-top: 1px solid var( --lib-color-status-error-base );
+}
+@mixin border-top-status-error-light {
+  border-top: 1px solid var( --lib-color-status-error-light );
+}
+@mixin border-top-status-error-dark {
+  border-top: 1px solid var( --lib-color-status-error-dark );
+}
+@mixin border-top-status-warning-base {
+  border-top: 1px solid var( --lib-color-status-warning-base );
+}
+@mixin border-top-status-warning-light {
+  border-top: 1px solid var( --lib-color-status-warning-light );
+}
+@mixin border-top-status-warning-dark {
+  border-top: 1px solid var( --lib-color-status-warning-dark );
+}
+@mixin border-top-primary-base {
+  border-top: 1px solid var( --lib-color-primary-base );
+}
+@mixin border-top-primary-dark {
+  border-top: 1px solid var( --lib-color-primary-dark );
+}
+@mixin border-top-primary-light {
+  border-top: 1px solid var( --lib-color-primary-light );
+}
+@mixin border-top-secondary-base {
+  border-top: 1px solid var( --lib-color-secondary-base );
+}
+@mixin border-top-secondary-light {
+  border-top: 1px solid var( --lib-color-secondary-light );
+}
+@mixin border-top-secondary-dark {
+  border-top: 1px solid var( --lib-color-secondary-dark );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-180 {
+  border-top: 1px solid var( --lib-color-180 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-top-10 {
+  border-top: 1px solid var( --lib-color-10 );
+}
+@mixin border-top-20 {
+  border-top: 1px solid var( --lib-color-20 );
+}
+@mixin border-top-30 {
+  border-top: 1px solid var( --lib-color-30 );
+}
+@mixin border-top-40 {
+  border-top: 1px solid var( --lib-color-40 );
+}
+@mixin border-top-50 {
+  border-top: 1px solid var( --lib-color-50 );
+}
+@mixin border-top-60 {
+  border-top: 1px solid var( --lib-color-60 );
+}
+@mixin border-top-70 {
+  border-top: 1px solid var( --lib-color-70 );
+}
+@mixin border-top-80 {
+  border-top: 1px solid var( --lib-color-80 );
+}
+@mixin border-top-90 {
+  border-top: 1px solid var( --lib-color-90 );
+}
+@mixin border-top-100 {
+  border-top: 1px solid var( --lib-color-100 );
+}
+@mixin border-top-120 {
+  border-top: 1px solid var( --lib-color-120 );
+}
+@mixin border-top-140 {
+  border-top: 1px solid var( --lib-color-140 );
+}
+@mixin border-top-160 {
+  border-top: 1px solid var( --lib-color-160 );
+}
+@mixin border-top-05 {
+  border-top: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-neutral-white {
+  border-bottom: 1px solid var( --lib-color-neutral-white );
+}
+@mixin border-bottom-neutral-lighter {
+  border-bottom: 1px solid var( --lib-color-neutral-lighter );
+}
+@mixin border-bottom-neutral-light {
+  border-bottom: 1px solid var( --lib-color-neutral-light );
+}
+@mixin border-bottom-neutral-base {
+  border-bottom: 1px solid var( --lib-color-neutral-base );
+}
+@mixin border-bottom-neutral-dark {
+  border-bottom: 1px solid var( --lib-color-neutral-dark );
+}
+@mixin border-bottom-neutral-text {
+  border-bottom: 1px solid var( --lib-color-neutral-text );
+}
+@mixin border-bottom-status-success-base {
+  border-bottom: 1px solid var( --lib-color-status-success-base );
+}
+@mixin border-bottom-status-success-light {
+  border-bottom: 1px solid var( --lib-color-status-success-light );
+}
+@mixin border-bottom-status-success-dark {
+  border-bottom: 1px solid var( --lib-color-status-success-dark );
+}
+@mixin border-bottom-status-error-base {
+  border-bottom: 1px solid var( --lib-color-status-error-base );
+}
+@mixin border-bottom-status-error-light {
+  border-bottom: 1px solid var( --lib-color-status-error-light );
+}
+@mixin border-bottom-status-error-dark {
+  border-bottom: 1px solid var( --lib-color-status-error-dark );
+}
+@mixin border-bottom-status-warning-base {
+  border-bottom: 1px solid var( --lib-color-status-warning-base );
+}
+@mixin border-bottom-status-warning-light {
+  border-bottom: 1px solid var( --lib-color-status-warning-light );
+}
+@mixin border-bottom-status-warning-dark {
+  border-bottom: 1px solid var( --lib-color-status-warning-dark );
+}
+@mixin border-bottom-primary-base {
+  border-bottom: 1px solid var( --lib-color-primary-base );
+}
+@mixin border-bottom-primary-dark {
+  border-bottom: 1px solid var( --lib-color-primary-dark );
+}
+@mixin border-bottom-primary-light {
+  border-bottom: 1px solid var( --lib-color-primary-light );
+}
+@mixin border-bottom-secondary-base {
+  border-bottom: 1px solid var( --lib-color-secondary-base );
+}
+@mixin border-bottom-secondary-light {
+  border-bottom: 1px solid var( --lib-color-secondary-light );
+}
+@mixin border-bottom-secondary-dark {
+  border-bottom: 1px solid var( --lib-color-secondary-dark );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-180 {
+  border-bottom: 1px solid var( --lib-color-180 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-bottom-10 {
+  border-bottom: 1px solid var( --lib-color-10 );
+}
+@mixin border-bottom-20 {
+  border-bottom: 1px solid var( --lib-color-20 );
+}
+@mixin border-bottom-30 {
+  border-bottom: 1px solid var( --lib-color-30 );
+}
+@mixin border-bottom-40 {
+  border-bottom: 1px solid var( --lib-color-40 );
+}
+@mixin border-bottom-50 {
+  border-bottom: 1px solid var( --lib-color-50 );
+}
+@mixin border-bottom-60 {
+  border-bottom: 1px solid var( --lib-color-60 );
+}
+@mixin border-bottom-70 {
+  border-bottom: 1px solid var( --lib-color-70 );
+}
+@mixin border-bottom-80 {
+  border-bottom: 1px solid var( --lib-color-80 );
+}
+@mixin border-bottom-90 {
+  border-bottom: 1px solid var( --lib-color-90 );
+}
+@mixin border-bottom-100 {
+  border-bottom: 1px solid var( --lib-color-100 );
+}
+@mixin border-bottom-120 {
+  border-bottom: 1px solid var( --lib-color-120 );
+}
+@mixin border-bottom-140 {
+  border-bottom: 1px solid var( --lib-color-140 );
+}
+@mixin border-bottom-160 {
+  border-bottom: 1px solid var( --lib-color-160 );
+}
+@mixin border-bottom-05 {
+  border-bottom: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-neutral-white {
+  border-left: 1px solid var( --lib-color-neutral-white );
+}
+@mixin border-left-neutral-lighter {
+  border-left: 1px solid var( --lib-color-neutral-lighter );
+}
+@mixin border-left-neutral-light {
+  border-left: 1px solid var( --lib-color-neutral-light );
+}
+@mixin border-left-neutral-base {
+  border-left: 1px solid var( --lib-color-neutral-base );
+}
+@mixin border-left-neutral-dark {
+  border-left: 1px solid var( --lib-color-neutral-dark );
+}
+@mixin border-left-neutral-text {
+  border-left: 1px solid var( --lib-color-neutral-text );
+}
+@mixin border-left-status-success-base {
+  border-left: 1px solid var( --lib-color-status-success-base );
+}
+@mixin border-left-status-success-light {
+  border-left: 1px solid var( --lib-color-status-success-light );
+}
+@mixin border-left-status-success-dark {
+  border-left: 1px solid var( --lib-color-status-success-dark );
+}
+@mixin border-left-status-error-base {
+  border-left: 1px solid var( --lib-color-status-error-base );
+}
+@mixin border-left-status-error-light {
+  border-left: 1px solid var( --lib-color-status-error-light );
+}
+@mixin border-left-status-error-dark {
+  border-left: 1px solid var( --lib-color-status-error-dark );
+}
+@mixin border-left-status-warning-base {
+  border-left: 1px solid var( --lib-color-status-warning-base );
+}
+@mixin border-left-status-warning-light {
+  border-left: 1px solid var( --lib-color-status-warning-light );
+}
+@mixin border-left-status-warning-dark {
+  border-left: 1px solid var( --lib-color-status-warning-dark );
+}
+@mixin border-left-primary-base {
+  border-left: 1px solid var( --lib-color-primary-base );
+}
+@mixin border-left-primary-dark {
+  border-left: 1px solid var( --lib-color-primary-dark );
+}
+@mixin border-left-primary-light {
+  border-left: 1px solid var( --lib-color-primary-light );
+}
+@mixin border-left-secondary-base {
+  border-left: 1px solid var( --lib-color-secondary-base );
+}
+@mixin border-left-secondary-light {
+  border-left: 1px solid var( --lib-color-secondary-light );
+}
+@mixin border-left-secondary-dark {
+  border-left: 1px solid var( --lib-color-secondary-dark );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-180 {
+  border-left: 1px solid var( --lib-color-180 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-left-10 {
+  border-left: 1px solid var( --lib-color-10 );
+}
+@mixin border-left-20 {
+  border-left: 1px solid var( --lib-color-20 );
+}
+@mixin border-left-30 {
+  border-left: 1px solid var( --lib-color-30 );
+}
+@mixin border-left-40 {
+  border-left: 1px solid var( --lib-color-40 );
+}
+@mixin border-left-50 {
+  border-left: 1px solid var( --lib-color-50 );
+}
+@mixin border-left-60 {
+  border-left: 1px solid var( --lib-color-60 );
+}
+@mixin border-left-70 {
+  border-left: 1px solid var( --lib-color-70 );
+}
+@mixin border-left-80 {
+  border-left: 1px solid var( --lib-color-80 );
+}
+@mixin border-left-90 {
+  border-left: 1px solid var( --lib-color-90 );
+}
+@mixin border-left-100 {
+  border-left: 1px solid var( --lib-color-100 );
+}
+@mixin border-left-120 {
+  border-left: 1px solid var( --lib-color-120 );
+}
+@mixin border-left-140 {
+  border-left: 1px solid var( --lib-color-140 );
+}
+@mixin border-left-160 {
+  border-left: 1px solid var( --lib-color-160 );
+}
+@mixin border-left-05 {
+  border-left: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-neutral-white {
+  border-right: 1px solid var( --lib-color-neutral-white );
+}
+@mixin border-right-neutral-lighter {
+  border-right: 1px solid var( --lib-color-neutral-lighter );
+}
+@mixin border-right-neutral-light {
+  border-right: 1px solid var( --lib-color-neutral-light );
+}
+@mixin border-right-neutral-base {
+  border-right: 1px solid var( --lib-color-neutral-base );
+}
+@mixin border-right-neutral-dark {
+  border-right: 1px solid var( --lib-color-neutral-dark );
+}
+@mixin border-right-neutral-text {
+  border-right: 1px solid var( --lib-color-neutral-text );
+}
+@mixin border-right-status-success-base {
+  border-right: 1px solid var( --lib-color-status-success-base );
+}
+@mixin border-right-status-success-light {
+  border-right: 1px solid var( --lib-color-status-success-light );
+}
+@mixin border-right-status-success-dark {
+  border-right: 1px solid var( --lib-color-status-success-dark );
+}
+@mixin border-right-status-error-base {
+  border-right: 1px solid var( --lib-color-status-error-base );
+}
+@mixin border-right-status-error-light {
+  border-right: 1px solid var( --lib-color-status-error-light );
+}
+@mixin border-right-status-error-dark {
+  border-right: 1px solid var( --lib-color-status-error-dark );
+}
+@mixin border-right-status-warning-base {
+  border-right: 1px solid var( --lib-color-status-warning-base );
+}
+@mixin border-right-status-warning-light {
+  border-right: 1px solid var( --lib-color-status-warning-light );
+}
+@mixin border-right-status-warning-dark {
+  border-right: 1px solid var( --lib-color-status-warning-dark );
+}
+@mixin border-right-primary-base {
+  border-right: 1px solid var( --lib-color-primary-base );
+}
+@mixin border-right-primary-dark {
+  border-right: 1px solid var( --lib-color-primary-dark );
+}
+@mixin border-right-primary-light {
+  border-right: 1px solid var( --lib-color-primary-light );
+}
+@mixin border-right-secondary-base {
+  border-right: 1px solid var( --lib-color-secondary-base );
+}
+@mixin border-right-secondary-light {
+  border-right: 1px solid var( --lib-color-secondary-light );
+}
+@mixin border-right-secondary-dark {
+  border-right: 1px solid var( --lib-color-secondary-dark );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-180 {
+  border-right: 1px solid var( --lib-color-180 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
+@mixin border-right-10 {
+  border-right: 1px solid var( --lib-color-10 );
+}
+@mixin border-right-20 {
+  border-right: 1px solid var( --lib-color-20 );
+}
+@mixin border-right-30 {
+  border-right: 1px solid var( --lib-color-30 );
+}
+@mixin border-right-40 {
+  border-right: 1px solid var( --lib-color-40 );
+}
+@mixin border-right-50 {
+  border-right: 1px solid var( --lib-color-50 );
+}
+@mixin border-right-60 {
+  border-right: 1px solid var( --lib-color-60 );
+}
+@mixin border-right-70 {
+  border-right: 1px solid var( --lib-color-70 );
+}
+@mixin border-right-80 {
+  border-right: 1px solid var( --lib-color-80 );
+}
+@mixin border-right-90 {
+  border-right: 1px solid var( --lib-color-90 );
+}
+@mixin border-right-100 {
+  border-right: 1px solid var( --lib-color-100 );
+}
+@mixin border-right-120 {
+  border-right: 1px solid var( --lib-color-120 );
+}
+@mixin border-right-140 {
+  border-right: 1px solid var( --lib-color-140 );
+}
+@mixin border-right-160 {
+  border-right: 1px solid var( --lib-color-160 );
+}
+@mixin border-right-05 {
+  border-right: 1px solid var( --lib-color-05 );
+}
