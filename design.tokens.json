@@ -1,0 +1,10 @@
+{
+  "$description": "Global Component Library (LIB) Design Tokens",
+  "LIB": {
+    "$extensions": {
+      "dsys.level": "sheet",
+      "dsys.prefix": "LIB",
+      "dsys.fullName": "Global Component Library"
+    }
+  }
+}
