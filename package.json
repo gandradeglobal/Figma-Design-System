@@ -1,6 +1,6 @@
 {
   "name": "@gandradeglobal/Figma-Design-System",
-  "version": "v0.0.0",
+  "version": "v1.0.0",
   "main": "index.js",
   "repository": "git@github.com:gandradeglobal/Figma-Design-System.git",
   "dependencies": {
