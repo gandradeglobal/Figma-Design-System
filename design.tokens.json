@@ -2695,6 +2695,150 @@
           "$type": "component",
           "$value": "1798:30679"
         }
+      },
+      "split-button": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Split Button",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Split Button",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "2043:32299"
+        }
+      },
+      "icon-button": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Icon Button",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Icon Button",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "1798:30911"
+        }
+      },
+      "checkbox": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Checkbox",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Checkbox",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "10:31354"
+        }
+      },
+      "picker": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Picker",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Picker",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "2205:25972"
+        }
+      },
+      "date-picker": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Date Picker",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Date Picker",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "2205:26000"
+        }
+      },
+      "radio": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Radio",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Radio",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "10:31439"
+        }
+      },
+      "switch": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Switch",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Switch",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "147:18877"
+        }
+      },
+      "segmented-button": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "Segmented Button",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "Segmented Button",
+            "dsys.index": 0
+          },
+          "$type": "component",
+          "$value": "2205:25534"
+        }
       }
     }
   }
