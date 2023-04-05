@@ -2671,6 +2671,275 @@
         }
       }
     },
+    "icon": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "IconSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the icon tokens",
+      "icons": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "Icons",
+          "dsys.nodeId": "2670:42605"
+        },
+        "$description": "Icons icon tokens",
+        "account-thickstroke-off": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "account-thickstroke-off",
+            "dsys.componentId": "2670:42848",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.4375 51.9375V45.1875C11.4375 41.4595 14.4596 38.4375 18.1875 38.4375H41.8125C45.5405 38.4375 48.5625 41.4595 48.5625 45.1875V51.9375M38.4375 19.875C38.4375 24.5349 34.6599 28.3125 30 28.3125C25.3401 28.3125 21.5625 24.5349 21.5625 19.875C21.5625 15.2151 25.3401 11.4375 30 11.4375C34.6599 11.4375 38.4375 15.2151 38.4375 19.875Z\" stroke=\"#353739\" stroke-linecap=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "account-thickstroke-on": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "account-thickstroke-on",
+            "dsys.componentId": "2670:42855",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M13.125 50.25V43.5C13.125 39.772 16.1471 36.75 19.875 36.75H40.125C43.853 36.75 46.875 39.772 46.875 43.5V50.25M36.75 19.875C36.75 23.6029 33.7279 26.625 30 26.625C26.2721 26.625 23.25 23.6029 23.25 19.875C23.25 16.1471 26.2721 13.125 30 13.125C33.7279 13.125 36.75 16.1471 36.75 19.875Z\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "accountdropdown-thickstroke-off": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "accountdropdown-thickstroke-off",
+            "dsys.componentId": "2670:42860",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.4377 51.9375V45.1875C11.4377 41.4595 14.4598 38.4375 18.1877 38.4375H41.8128M38.4378 19.875C38.4378 24.5349 34.6601 28.3125 30.0002 28.3125C25.3403 28.3125 21.5627 24.5349 21.5627 19.875C21.5627 15.2151 25.3403 11.4375 30.0002 11.4375C34.6601 11.4375 38.4378 15.2151 38.4378 19.875ZM46.3853 52.8994L52.4009 46.0245C52.8781 45.4788 52.4907 44.6249 51.7657 44.6249H39.7345C39.0096 44.6249 38.6225 45.4788 39.0997 46.0245L45.1153 52.8994C45.4514 53.2834 46.0491 53.2834 46.3853 52.8994Z\" stroke=\"#353739\" stroke-linecap=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "accountdropdown-thickstroke-on": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "accountdropdown-thickstroke-on",
+            "dsys.componentId": "2670:42866",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M9.75 50.25C9.75 52.114 11.2611 53.625 13.125 53.625C14.9889 53.625 16.5 52.114 16.5 50.25H9.75ZM16.5 50.25V43.5H9.75V50.25H16.5ZM19.875 40.125H43.5V33.375H19.875V40.125ZM33.375 19.875C33.375 21.739 31.8639 23.25 30 23.25V30C35.5919 30 40.125 25.4669 40.125 19.875H33.375ZM30 23.25C28.1361 23.25 26.625 21.7389 26.625 19.875H19.875C19.875 25.4669 24.4081 30 30 30V23.25ZM26.625 19.875C26.625 18.0111 28.1361 16.5 30 16.5V9.75C24.4081 9.75 19.875 14.2831 19.875 19.875H26.625ZM30 16.5C31.8639 16.5 33.375 18.011 33.375 19.875H40.125C40.125 14.2831 35.5919 9.75 30 9.75V16.5ZM43.5 40.125H50.25C50.25 36.3971 47.228 33.375 43.5 33.375V40.125ZM16.5 43.5C16.5 41.636 18.0111 40.125 19.875 40.125V33.375C14.2831 33.375 9.75 37.908 9.75 43.5H16.5Z\" fill=\"#353739\"/>\n<path d=\"M52.0485 43.5H41.7015C41.0278 43.5 40.6258 44.2509 40.9995 44.8119L46.173 52.572C46.5068 53.0728 47.2432 53.0728 47.577 52.572L52.7505 44.8119C53.1241 44.2509 52.7222 43.5 52.0485 43.5Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "accounts-thickstroke-off": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "accounts-thickstroke-off",
+            "dsys.componentId": "2670:42872",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M8.0625 48.5625V45.1875C8.0625 41.4595 11.0846 38.4375 14.8125 38.4375H28.3125C32.0404 38.4375 35.0625 41.4595 35.0625 45.1875V48.5625M35.0625 31.6875H45.1875C48.9155 31.6875 51.9375 34.7096 51.9375 38.4375V41.8125M28.3125 21.5625C28.3125 25.2904 25.2904 28.3125 21.5625 28.3125C17.8346 28.3125 14.8125 25.2904 14.8125 21.5625C14.8125 17.8346 17.8346 14.8125 21.5625 14.8125C25.2904 14.8125 28.3125 17.8346 28.3125 21.5625Z\" stroke=\"#353739\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M45.1875 19.875C45.1875 22.671 42.9209 24.9375 40.125 24.9375C37.3291 24.9375 35.0625 22.671 35.0625 19.875C35.0625 17.079 37.3291 14.8125 40.125 14.8125C42.9209 14.8125 45.1875 17.079 45.1875 19.875Z\" stroke=\"#353739\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "accounts-thickstroke-on": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "accounts-thickstroke-on",
+            "dsys.componentId": "2670:42879",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"61\" viewBox=\"0 0 60 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.375 50.75V44C6.375 40.272 9.39708 37.25 13.125 37.25H33.375C37.103 37.25 40.125 40.272 40.125 44V50.75M30 20.375C30 24.1029 26.9779 27.125 23.25 27.125C19.5221 27.125 16.5 24.1029 16.5 20.375C16.5 16.6471 19.5221 13.625 23.25 13.625C26.9779 13.625 30 16.6471 30 20.375Z\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M46.875 13.625C46.875 15.4889 45.364 17 43.5 17C41.636 17 40.125 15.4889 40.125 13.625C40.125 11.7611 41.636 10.25 43.5 10.25C45.364 10.25 46.875 11.7611 46.875 13.625Z\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n<path d=\"M40.125 27.125H46.875C50.603 27.125 53.625 30.1471 53.625 33.875V37.2499\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "alertstatus-thickstroke-off": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "alertstatus-thickstroke-off",
+            "dsys.componentId": "2670:42970",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"61\" viewBox=\"0 0 60 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28.3123 35.5625V25.4375M28.3123 42.3125V42.2899M46.12 44.1782L31.331 14.5999C30.0872 12.1124 26.5374 12.1124 25.2936 14.5999L10.5045 44.1782C9.38247 46.4222 11.0143 49.0625 13.5232 49.0625H43.1014C45.6104 49.0625 47.2422 46.4222 46.12 44.1782Z\" stroke=\"#353739\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "alertstatus-thickstroke-on": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "alertstatus-thickstroke-on",
+            "dsys.componentId": "2670:42976",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"61\" viewBox=\"0 0 60 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M27.0766 13.6297L7.60762 47.376C6.30956 49.6258 7.93341 52.4375 10.531 52.4375H49.469C52.0664 52.4375 53.6905 49.6258 52.3924 47.376L32.9234 13.6297C31.6246 11.3784 28.3754 11.3784 27.0766 13.6297Z\" stroke=\"#353739\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M30 33.875V23.75M30 44V43.9798\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "arrowdown-thickstroke-off": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "arrowdown-thickstroke-off",
+            "dsys.componentId": "2670:42981",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"61\" viewBox=\"0 0 60 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M28.8749 13.625V47.375M28.8749 47.375L42.3748 31.625M28.8749 47.375L15.3749 31.625\" stroke=\"#353739\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "arrowdown-thickstroke-on": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "arrowdown-thickstroke-on",
+            "dsys.componentId": "2670:42986",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"61\" viewBox=\"0 0 60 61\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M30 13.625V47.375M30 47.375L43.5 33.875M30 47.375L16.5 33.875\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "arrowleft-thickstroke-off": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "arrowleft-thickstroke-off",
+            "dsys.componentId": "2670:42991",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M46.875 28.875H13.125M13.125 28.875L28.875 42.3751M13.125 28.875L28.875 15.375\" stroke=\"#353739\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "arrowleft-thickstroke-on": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "arrowleft-thickstroke-on",
+            "dsys.componentId": "2670:42996",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": [],
+            "dsys.index": 0
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M46.875 29.9999H13.125M13.125 29.9999L26.625 43.5M13.125 29.9999L26.625 16.4999\" stroke=\"#353739\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      }
+    },
     "component": {
       "$extensions": {
         "dsys.level": "group",
