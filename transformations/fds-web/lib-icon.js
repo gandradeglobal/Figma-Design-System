@@ -38,6 +38,42 @@ const template = document.createElement('template');
     async getSvg(icon) {
       let svg;
       switch (icon) {
+        case 'account-thickstroke-off' :
+          svg = await import('./icons/account-thickstroke-off.js');
+          break;
+        case 'account-thickstroke-on' :
+          svg = await import('./icons/account-thickstroke-on.js');
+          break;
+        case 'accountdropdown-thickstroke-off' :
+          svg = await import('./icons/accountdropdown-thickstroke-off.js');
+          break;
+        case 'accountdropdown-thickstroke-on' :
+          svg = await import('./icons/accountdropdown-thickstroke-on.js');
+          break;
+        case 'accounts-thickstroke-off' :
+          svg = await import('./icons/accounts-thickstroke-off.js');
+          break;
+        case 'accounts-thickstroke-on' :
+          svg = await import('./icons/accounts-thickstroke-on.js');
+          break;
+        case 'alertstatus-thickstroke-off' :
+          svg = await import('./icons/alertstatus-thickstroke-off.js');
+          break;
+        case 'alertstatus-thickstroke-on' :
+          svg = await import('./icons/alertstatus-thickstroke-on.js');
+          break;
+        case 'arrowdown-thickstroke-off' :
+          svg = await import('./icons/arrowdown-thickstroke-off.js');
+          break;
+        case 'arrowdown-thickstroke-on' :
+          svg = await import('./icons/arrowdown-thickstroke-on.js');
+          break;
+        case 'arrowleft-thickstroke-off' :
+          svg = await import('./icons/arrowleft-thickstroke-off.js');
+          break;
+        case 'arrowleft-thickstroke-on' :
+          svg = await import('./icons/arrowleft-thickstroke-on.js');
+          break;
       }
       if (svg) {
         this.shadowRoot.querySelector(
