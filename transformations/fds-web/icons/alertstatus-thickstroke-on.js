@@ -1,0 +1,5 @@
+export default `<svg width="60" height="61" viewBox="0 0 60 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.0766 13.6297L7.60762 47.376C6.30956 49.6258 7.93341 52.4375 10.531 52.4375H49.469C52.0664 52.4375 53.6905 49.6258 52.3924 47.376L32.9234 13.6297C31.6246 11.3784 28.3754 11.3784 27.0766 13.6297Z" stroke="#353739" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 33.875V23.75M30 44V43.9798" stroke="#353739" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+`;
